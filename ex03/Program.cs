@@ -41,8 +41,8 @@ int Accerman(int m, int n)
 }
 int ResultAccer()
 {
-    int n = Parametr("Введите значение n:");
     int m = Parametr("Введите значение m:");
+    int n = Parametr("Введите значение n:");
     if (n < 5 && m < 4)
     {
         int value = Accerman(m, n);
